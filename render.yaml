@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: acoustic-tracker
+    runtime: static
+    buildCommand: python scripts/build-matrix.py
+    staticPublishPath: public
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html

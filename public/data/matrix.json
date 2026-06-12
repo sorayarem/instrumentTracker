@@ -1,0 +1,3565 @@
+{
+  "title": "Data Availability by Instrument, Month, and Year",
+  "months": [
+    "Nov",
+    "Dec",
+    "Jan",
+    "Feb",
+    "Mar",
+    "Apr",
+    "May",
+    "Jun",
+    "Jul",
+    "Aug",
+    "Sep",
+    "Oct"
+  ],
+  "years": [
+    "21-22",
+    "22-23",
+    "23-24",
+    "24-25",
+    "25-26"
+  ],
+  "missions": [
+    {
+      "id": "glider-winter-22-23",
+      "instrument": "Glider",
+      "label": "Winter 2022-2023",
+      "color": "#1F3B8A",
+      "analysis": "qaqc'd",
+      "popupMission": "Winter 2023",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/skio0123/skio0123_angus.shtml?_gl=1*11nnoqt*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "1/21/2023",
+          "end": "2/3/2023"
+        }
+      ]
+    },
+    {
+      "id": "glider-winter-23-24-part-i",
+      "instrument": "Glider",
+      "label": "Winter 2023-2024 (Part I)",
+      "color": "#1F3B8A",
+      "analysis": "qaqc'd",
+      "popupMission": "Winter 2024 (Part I)",
+      "popupDates": "1/11/2024 \u2013 2/9/2024",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/skio0124/skio0124_angus.shtml?_gl=1*1bwykcp*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "1/11/2024",
+          "end": "2/9/2024"
+        }
+      ]
+    },
+    {
+      "id": "glider-winter-23-24-part-ii",
+      "instrument": "Glider",
+      "label": "Winter 2023-2024 (Part II)",
+      "color": "#1F3B8A",
+      "analysis": "qaqc'd",
+      "popupMission": "Winter 2024 (Part II)",
+      "popupDates": "2/15/2024 \u2013 3/15/2024",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/skio0224/skio0224_angus.shtml?_gl=1*8l8ijd*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "2/15/2024",
+          "end": "3/15/2024"
+        }
+      ]
+    },
+    {
+      "id": "glider-winter-24-25-part-i",
+      "instrument": "Glider",
+      "label": "Winter 2024-2025 (Part I)",
+      "color": "#1F3B8A",
+      "analysis": "qaqc'd",
+      "popupMission": "Winter 2025 (Part I)",
+      "popupDates": "1/2/2025 \u2013 2/5/2025",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/skio2501/skio2501_franklin.shtml?_gl=1*tvwnm3*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "1/2/2025",
+          "end": "2/5/2025"
+        }
+      ]
+    },
+    {
+      "id": "glider-winter-24-25-part-ii",
+      "instrument": "Glider",
+      "label": "Winter 2024-2025 (Part II)",
+      "color": "#1F3B8A",
+      "analysis": "qaqc'd",
+      "popupMission": "Winter 2025 (Part II)",
+      "popupDates": "2/3/2025 \u2013 2/8/2025",
+      "popupNote": "Glider picked up by citizen boater after five days",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/skio2502/skio2502_franklin.shtml?_gl=1*1dsub9v*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "2/3/2025",
+          "end": "2/8/2025"
+        }
+      ]
+    },
+    {
+      "id": "glider-winter-25-26",
+      "instrument": "Glider",
+      "label": "Winter 2025-2026",
+      "color": "#1F3B8A",
+      "analysis": "qaqc'd",
+      "popupMission": "Winter 2026",
+      "popupDates": "12/13/2025 \u2013 1/23/2026",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/skio2512/skio2512_angus.shtml?_gl=1*1lzmwpe*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "12/13/2025",
+          "end": "1/23/2026"
+        }
+      ]
+    },
+    {
+      "id": "gasv-2022-2023",
+      "instrument": "GASV Buoy",
+      "label": "Savannah Buoy",
+      "color": "#3EA6C6",
+      "analysis": "not analyzed",
+      "popupMission": "Savannah Buoy",
+      "popupDates": "8/17/2022 \u2013 9/29/2023",
+      "popupNote": "Power supply disconnection caused large amounts of data to be missing",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/gasv0822/gasv0822_gasv.shtml?_gl=1*nzzftg*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "8/17/2022",
+          "end": "9/29/2023",
+          "label": "8/17/2022 \u2013 9/29/2023"
+        }
+      ]
+    },
+    {
+      "id": "gasv-winter-23-24",
+      "instrument": "GASV Buoy",
+      "label": "Savannah Buoy",
+      "color": "#3EA6C6",
+      "popupDates": "12/7/2023 \u2013 1/31/2024",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/gasv1223/gasv1223_gasv.shtml?_gl=1*nzzftg*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "12/7/2023",
+          "end": "1/31/2024",
+          "label": "12/7/2023 \u2013 1/31/2024"
+        }
+      ]
+    },
+    {
+      "id": "gasv-2024-2025",
+      "instrument": "GASV Buoy",
+      "label": "Savannah Buoy",
+      "color": "#3EA6C6",
+      "analysis": "not analyzed",
+      "popupDates": "12/4/2024 \u2013 7/29/2025",
+      "popupNote": "Haven't received this buoy's archival data",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/gasv2412/gasv2412_gasv.shtml?_gl=1*11nnoqt*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "12/4/2024",
+          "end": "7/29/2025",
+          "label": "12/4/2024 \u2013 7/29/2025"
+        }
+      ]
+    },
+    {
+      "id": "gasv-winter-25-26",
+      "instrument": "GASV Buoy",
+      "label": "Savannah Buoy",
+      "color": "#3EA6C6",
+      "analysis": "not analyzed",
+      "popupDates": "12/16/2025 \u2013 present",
+      "popupNote": "Currently deployed",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/gasv2512/gasv2512_gasv.shtml?_gl=1*11nnoqt*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "12/16/2025",
+          "end": "present",
+          "label": "12/16/2025 \u2013 present"
+        }
+      ]
+    },
+    {
+      "id": "vanf-2022-2023",
+      "instrument": "VANF Buoy",
+      "label": "Norfolk Buoy",
+      "color": "#FD8D3C",
+      "analysis": "not analyzed",
+      "popupDates": "7/20/2022 \u2013 10/5/2023",
+      "popupNote": "Power supply disconnection caused large amounts of data to be missing",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/vanf0722/vanf0722_vanf.shtml?_gl=1*mz2tnw*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "7/20/2022",
+          "end": "10/5/2023",
+          "label": "7/20/2022 \u2013 10/5/2023"
+        }
+      ]
+    },
+    {
+      "id": "vanf-2023-2024",
+      "instrument": "VANF Buoy",
+      "label": "Norfolk Buoy",
+      "color": "#FD8D3C",
+      "analysis": "analyzed",
+      "popupDates": "10/5/2023 \u2013 7/13/2024",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/vanf1023/vanf1023_vanf.shtml?_gl=1*twkx7b*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "10/5/2023",
+          "end": "7/13/2024",
+          "label": "10/5/2023 \u2013 7/13/2024"
+        }
+      ]
+    },
+    {
+      "id": "vanf-2024-2025",
+      "instrument": "VANF Buoy",
+      "label": "Norfolk Buoy",
+      "color": "#FD8D3C",
+      "analysis": "analyzed",
+      "popupDates": "7/14/2024 \u2013 5/30/2025",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/vanf2407/vanf2407_vanf.shtml?_gl=1*twkx7b*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "7/14/2024",
+          "end": "5/30/2025",
+          "label": "7/14/2024 \u2013 5/30/2025"
+        }
+      ]
+    },
+    {
+      "id": "vanf-2025-present",
+      "instrument": "VANF Buoy",
+      "label": "Norfolk Buoy",
+      "color": "#FD8D3C",
+      "analysis": "not analyzed",
+      "popupDates": "5/30/2025 \u2013 present",
+      "popupNote": "Currently deployed",
+      "detailHeading": "R4W MISSION DETAILS",
+      "r4wUrl": "https://dcs.whoi.edu/vanf2505/vanf2505_vanf.shtml?_gl=1*twkx7b*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "windows": [
+        {
+          "start": "5/30/2025",
+          "end": "present",
+          "label": "5/30/2025 \u2013 present"
+        }
+      ]
+    },
+    {
+      "id": "shallow-22-23",
+      "instrument": "Soundtrap (Shallow)",
+      "label": "Shallow Soundtrap",
+      "color": "#66C2A3",
+      "analysis": "qaqc'd",
+      "popupDates": "1/7/2023 \u2013 6/9/2023",
+      "windows": [
+        {
+          "start": "1/7/2023",
+          "end": "6/9/2023",
+          "label": "1/7/2023 \u2013 6/9/2023"
+        }
+      ]
+    },
+    {
+      "id": "shallow-23-24",
+      "instrument": "Soundtrap (Shallow)",
+      "label": "Shallow Soundtrap",
+      "color": "#66C2A3",
+      "analysis": "qaqc'd",
+      "popupDates": "1/30/2024 \u2013 6/28/2024",
+      "popupNote": "Not recovered until 2025 recovery mission",
+      "windows": [
+        {
+          "start": "1/30/2024",
+          "end": "6/28/2024",
+          "label": "1/30/2024 \u2013 6/28/2024"
+        }
+      ]
+    },
+    {
+      "id": "shallow-24-25",
+      "instrument": "Soundtrap (Shallow)",
+      "label": "Shallow Soundtrap",
+      "color": "#66C2A3",
+      "analysis": "not analyzed",
+      "popupDates": "1/2/2025 \u2013 6/9/2025",
+      "popupNote": "Not recovered until 2026 recovery mission",
+      "windows": [
+        {
+          "start": "1/2/2025",
+          "end": "6/9/2025",
+          "label": "1/2/2025 \u2013 6/9/2025"
+        }
+      ]
+    },
+    {
+      "id": "mid-22-23",
+      "instrument": "Soundtrap (Mid)",
+      "label": "Mid Soundtrap",
+      "color": "#CCE596",
+      "analysis": "qaqc'd",
+      "popupDates": "1/7/2023 \u2013 6/9/2023",
+      "windows": [
+        {
+          "start": "1/7/2023",
+          "end": "6/9/2023",
+          "label": "1/7/2023 \u2013 6/9/2023"
+        }
+      ]
+    },
+    {
+      "id": "mid-23-24",
+      "instrument": "Soundtrap (Mid)",
+      "label": "Mid Soundtrap",
+      "color": "#CCE596",
+      "analysis": "not analyzed",
+      "popupDates": "1/30/2024 \u2013 6/28/2024",
+      "popupNote": "Anchor dropped on soundtrap during recovery corrupted the data",
+      "windows": [
+        {
+          "start": "1/30/2024",
+          "end": "6/28/2024",
+          "label": "1/30/2024 \u2013 6/28/2024"
+        }
+      ]
+    },
+    {
+      "id": "mid-24-25",
+      "instrument": "Soundtrap (Mid)",
+      "label": "Mid Soundtrap",
+      "color": "#CCE596",
+      "analysis": "qaqc'd",
+      "popupDates": "1/2/2025 \u2013 6/9/2025",
+      "windows": [
+        {
+          "start": "1/2/2025",
+          "end": "6/9/2025",
+          "label": "1/2/2025 \u2013 6/9/2025"
+        }
+      ]
+    },
+    {
+      "id": "deep-22-23",
+      "instrument": "Soundtrap (Deep)",
+      "label": "Deep soundtrap",
+      "color": "#990000",
+      "analysis": "qaqc'd",
+      "popupDates": "1/7/2023 \u2013 6/9/2023",
+      "windows": [
+        {
+          "start": "1/7/2023",
+          "end": "6/9/2023",
+          "label": "1/7/2023 \u2013 6/9/2023"
+        }
+      ]
+    },
+    {
+      "id": "deep-23-24",
+      "instrument": "Soundtrap (Deep)",
+      "label": "Deep soundtrap",
+      "color": "#990000",
+      "analysis": "qaqc'd",
+      "popupDates": "1/30/2024 \u2013 6/28/2024",
+      "windows": [
+        {
+          "start": "1/30/2024",
+          "end": "6/28/2024",
+          "label": "1/30/2024 \u2013 6/28/2024"
+        }
+      ]
+    },
+    {
+      "id": "deep-24-25",
+      "instrument": "Soundtrap (Deep)",
+      "label": "Deep soundtrap",
+      "color": "#990000",
+      "analysis": "qaqc'd",
+      "popupDates": "1/2/2025 \u2013 6/9/2025",
+      "windows": [
+        {
+          "start": "1/2/2025",
+          "end": "6/9/2025",
+          "label": "1/2/2025 \u2013 6/9/2025"
+        }
+      ]
+    }
+  ],
+  "instruments": [
+    {
+      "id": "glider",
+      "name": "Glider",
+      "label": "Glider",
+      "color": "#1F3B8A",
+      "cells": [
+        {
+          "year": "21-22",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jan",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 22,
+          "totalDetections": 1,
+          "missionId": "glider-winter-22-23",
+          "missionLabel": "Winter 2022-2023",
+          "missionColor": "#1F3B8A",
+          "missionDates": "1/21/2023 \u2013 2/3/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Feb",
+          "status": "available",
+          "daysWithData": 12,
+          "totalDetections": 3,
+          "missionId": "glider-winter-22-23",
+          "missionLabel": "Winter 2022-2023",
+          "missionColor": "#1F3B8A",
+          "missionDates": "1/21/2023 \u2013 2/3/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 44,
+          "totalDetections": 27,
+          "missionId": "glider-winter-23-24-part-i",
+          "missionLabel": "Winter 2023-2024 (Part I)",
+          "missionColor": "#1F3B8A",
+          "missionDates": "1/11/2024 \u2013 2/9/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Feb",
+          "status": "available",
+          "daysWithData": 48,
+          "totalDetections": 5,
+          "missionId": "glider-winter-23-24-part-i",
+          "missionLabel": "Winter 2023-2024 (Part I)",
+          "missionColor": "#1F3B8A",
+          "missionDates": "1/11/2024 \u2013 2/9/2024",
+          "missionIds": [
+            "glider-winter-23-24-part-i",
+            "glider-winter-23-24-part-ii"
+          ]
+        },
+        {
+          "year": "23-24",
+          "month": "Mar",
+          "status": "available",
+          "daysWithData": 36,
+          "totalDetections": 0,
+          "missionId": "glider-winter-23-24-part-ii",
+          "missionLabel": "Winter 2023-2024 (Part II)",
+          "missionColor": "#1F3B8A",
+          "missionDates": "2/15/2024 \u2013 3/15/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 58,
+          "totalDetections": 5,
+          "missionId": "glider-winter-24-25-part-i",
+          "missionLabel": "Winter 2024-2025 (Part I)",
+          "missionColor": "#1F3B8A",
+          "missionDates": "1/2/2025 \u2013 2/5/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Feb",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "glider-winter-24-25-part-i",
+          "missionLabel": "Winter 2024-2025 (Part I)",
+          "missionColor": "#1F3B8A",
+          "missionDates": "1/2/2025 \u2013 2/5/2025",
+          "missionIds": [
+            "glider-winter-24-25-part-i",
+            "glider-winter-24-25-part-ii"
+          ]
+        },
+        {
+          "year": "24-25",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Dec",
+          "status": "available",
+          "daysWithData": 38,
+          "totalDetections": 31,
+          "missionId": "glider-winter-25-26",
+          "missionLabel": "Winter 2025-2026",
+          "missionColor": "#1F3B8A",
+          "missionDates": "12/13/2025 \u2013 1/23/2026"
+        },
+        {
+          "year": "25-26",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 46,
+          "totalDetections": 10,
+          "missionId": "glider-winter-25-26",
+          "missionLabel": "Winter 2025-2026",
+          "missionColor": "#1F3B8A",
+          "missionDates": "12/13/2025 \u2013 1/23/2026"
+        },
+        {
+          "year": "25-26",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        }
+      ]
+    },
+    {
+      "id": "soundtrap-shallow",
+      "name": "Soundtrap (Shallow)",
+      "label": "Shallow Soundtrap",
+      "color": "#66C2A3",
+      "cells": [
+        {
+          "year": "21-22",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jan",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 50,
+          "totalDetections": 79,
+          "missionId": "shallow-22-23",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Feb",
+          "status": "available",
+          "daysWithData": 56,
+          "totalDetections": 53,
+          "missionId": "shallow-22-23",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Mar",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "shallow-22-23",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Apr",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "shallow-22-23",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "May",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "shallow-22-23",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Jun",
+          "status": "available",
+          "daysWithData": 18,
+          "totalDetections": 0,
+          "missionId": "shallow-22-23",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 4,
+          "totalDetections": 5,
+          "missionId": "shallow-23-24",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Feb",
+          "status": "available",
+          "daysWithData": 58,
+          "totalDetections": 63,
+          "missionId": "shallow-23-24",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Mar",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 4,
+          "missionId": "shallow-23-24",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Apr",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "shallow-23-24",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "May",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "shallow-23-24",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Jun",
+          "status": "available",
+          "daysWithData": 56,
+          "totalDetections": 0,
+          "missionId": "shallow-23-24",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Jan",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "shallow-24-25",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "shallow-24-25",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "shallow-24-25",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "shallow-24-25",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "shallow-24-25",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "shallow-24-25",
+          "missionLabel": "Shallow Soundtrap",
+          "missionColor": "#66C2A3",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Jan",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        }
+      ]
+    },
+    {
+      "id": "gasv-buoy",
+      "name": "GASV Buoy",
+      "label": "Savannah Buoy",
+      "color": "#3EA6C6",
+      "cells": [
+        {
+          "year": "21-22",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jan",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Aug",
+          "status": "available",
+          "daysWithData": 32,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "21-22",
+          "month": "Sep",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "21-22",
+          "month": "Oct",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Nov",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Dec",
+          "status": "available",
+          "daysWithData": 36,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Jan",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Feb",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Mar",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Apr",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "May",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Jun",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Jul",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Aug",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Sep",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2022-2023",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "8/17/2022 \u2013 9/29/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Dec",
+          "status": "available",
+          "daysWithData": 56,
+          "totalDetections": 0,
+          "missionId": "gasv-winter-23-24",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/7/2023 \u2013 1/31/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "gasv-winter-23-24",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/7/2023 \u2013 1/31/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Dec",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2024-2025",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/4/2024 \u2013 7/29/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Jan",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2024-2025",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/4/2024 \u2013 7/29/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Feb",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2024-2025",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/4/2024 \u2013 7/29/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Mar",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2024-2025",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/4/2024 \u2013 7/29/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Apr",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2024-2025",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/4/2024 \u2013 7/29/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "May",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2024-2025",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/4/2024 \u2013 7/29/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Jun",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2024-2025",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/4/2024 \u2013 7/29/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Jul",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-2024-2025",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/4/2024 \u2013 7/29/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Dec",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-winter-25-26",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/16/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Jan",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-winter-25-26",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/16/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Feb",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-winter-25-26",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/16/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Mar",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-winter-25-26",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/16/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Apr",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-winter-25-26",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/16/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "May",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-winter-25-26",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/16/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Jun",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "gasv-winter-25-26",
+          "missionLabel": "Savannah Buoy",
+          "missionColor": "#3EA6C6",
+          "missionDates": "12/16/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        }
+      ]
+    },
+    {
+      "id": "soundtrap-mid",
+      "name": "Soundtrap (Mid)",
+      "label": "Mid Soundtrap",
+      "color": "#CCE596",
+      "cells": [
+        {
+          "year": "21-22",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jan",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 50,
+          "totalDetections": 15,
+          "missionId": "mid-22-23",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Feb",
+          "status": "available",
+          "daysWithData": 56,
+          "totalDetections": 12,
+          "missionId": "mid-22-23",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Mar",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "mid-22-23",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Apr",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "mid-22-23",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "May",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "mid-22-23",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Jun",
+          "status": "available",
+          "daysWithData": 24,
+          "totalDetections": 0,
+          "missionId": "mid-22-23",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Jan",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "mid-23-24",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "mid-23-24",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "mid-23-24",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "mid-23-24",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "mid-23-24",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "mid-23-24",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 32,
+          "missionId": "mid-24-25",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Feb",
+          "status": "available",
+          "daysWithData": 56,
+          "totalDetections": 4,
+          "missionId": "mid-24-25",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Mar",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 1,
+          "missionId": "mid-24-25",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Apr",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "mid-24-25",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "May",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "mid-24-25",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Jun",
+          "status": "available",
+          "daysWithData": 18,
+          "totalDetections": 0,
+          "missionId": "mid-24-25",
+          "missionLabel": "Mid Soundtrap",
+          "missionColor": "#CCE596",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Jan",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        }
+      ]
+    },
+    {
+      "id": "vanf-buoy",
+      "name": "VANF Buoy",
+      "label": "Norfolk Buoy",
+      "color": "#FD8D3C",
+      "cells": [
+        {
+          "year": "21-22",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jan",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jul",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "21-22",
+          "month": "Aug",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "21-22",
+          "month": "Sep",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "21-22",
+          "month": "Oct",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Nov",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Dec",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Jan",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Feb",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Mar",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Apr",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "May",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Jun",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Jul",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Aug",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Sep",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Oct",
+          "status": "available",
+          "daysWithData": 58,
+          "totalDetections": 0,
+          "missionId": "vanf-2022-2023",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/20/2022 \u2013 10/5/2023",
+          "missionIds": [
+            "vanf-2022-2023",
+            "vanf-2023-2024"
+          ]
+        },
+        {
+          "year": "23-24",
+          "month": "Nov",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "vanf-2023-2024",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "10/5/2023 \u2013 7/13/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Dec",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 69,
+          "missionId": "vanf-2023-2024",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "10/5/2023 \u2013 7/13/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 25,
+          "missionId": "vanf-2023-2024",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "10/5/2023 \u2013 7/13/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Feb",
+          "status": "available",
+          "daysWithData": 58,
+          "totalDetections": 190,
+          "missionId": "vanf-2023-2024",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "10/5/2023 \u2013 7/13/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Mar",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "vanf-2023-2024",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "10/5/2023 \u2013 7/13/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Apr",
+          "status": "available",
+          "daysWithData": 32,
+          "totalDetections": 0,
+          "missionId": "vanf-2023-2024",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "10/5/2023 \u2013 7/13/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "May",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2023-2024",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "10/5/2023 \u2013 7/13/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Jun",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2023-2024",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "10/5/2023 \u2013 7/13/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Jul",
+          "status": "available",
+          "daysWithData": 36,
+          "totalDetections": 0,
+          "missionId": "vanf-2023-2024",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "10/5/2023 \u2013 7/13/2024",
+          "missionIds": [
+            "vanf-2023-2024",
+            "vanf-2024-2025"
+          ]
+        },
+        {
+          "year": "23-24",
+          "month": "Aug",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "vanf-2024-2025",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/14/2024 \u2013 5/30/2025"
+        },
+        {
+          "year": "23-24",
+          "month": "Sep",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "vanf-2024-2025",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/14/2024 \u2013 5/30/2025"
+        },
+        {
+          "year": "23-24",
+          "month": "Oct",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "vanf-2024-2025",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/14/2024 \u2013 5/30/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Nov",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "vanf-2024-2025",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/14/2024 \u2013 5/30/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Dec",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 342,
+          "missionId": "vanf-2024-2025",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/14/2024 \u2013 5/30/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 127,
+          "missionId": "vanf-2024-2025",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/14/2024 \u2013 5/30/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Feb",
+          "status": "available",
+          "daysWithData": 56,
+          "totalDetections": 69,
+          "missionId": "vanf-2024-2025",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/14/2024 \u2013 5/30/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Mar",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 4,
+          "missionId": "vanf-2024-2025",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/14/2024 \u2013 5/30/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Apr",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "vanf-2024-2025",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/14/2024 \u2013 5/30/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "May",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "vanf-2024-2025",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "7/14/2024 \u2013 5/30/2025",
+          "missionIds": [
+            "vanf-2024-2025",
+            "vanf-2025-present"
+          ]
+        },
+        {
+          "year": "24-25",
+          "month": "Jun",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "24-25",
+          "month": "Jul",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "24-25",
+          "month": "Aug",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "24-25",
+          "month": "Sep",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "24-25",
+          "month": "Oct",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Nov",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Dec",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Jan",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Feb",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Mar",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Apr",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "May",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Jun",
+          "status": "listening",
+          "daysWithData": 0,
+          "totalDetections": 0,
+          "missionId": "vanf-2025-present",
+          "missionLabel": "Norfolk Buoy",
+          "missionColor": "#FD8D3C",
+          "missionDates": "5/30/2025 \u2013 present"
+        },
+        {
+          "year": "25-26",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        }
+      ]
+    },
+    {
+      "id": "soundtrap-deep",
+      "name": "Soundtrap (Deep)",
+      "label": "Deep Soundtrap",
+      "color": "#990000",
+      "cells": [
+        {
+          "year": "21-22",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jan",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "21-22",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 50,
+          "totalDetections": 9,
+          "missionId": "deep-22-23",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Feb",
+          "status": "available",
+          "daysWithData": 56,
+          "totalDetections": 31,
+          "missionId": "deep-22-23",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Mar",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 2,
+          "missionId": "deep-22-23",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Apr",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "deep-22-23",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "May",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "deep-22-23",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Jun",
+          "status": "available",
+          "daysWithData": 40,
+          "totalDetections": 0,
+          "missionId": "deep-22-23",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/7/2023 \u2013 6/9/2023"
+        },
+        {
+          "year": "22-23",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "22-23",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 4,
+          "totalDetections": 4,
+          "missionId": "deep-23-24",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Feb",
+          "status": "available",
+          "daysWithData": 58,
+          "totalDetections": 72,
+          "missionId": "deep-23-24",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Mar",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "deep-23-24",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Apr",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "deep-23-24",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "May",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "deep-23-24",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Jun",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "deep-23-24",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/30/2024 \u2013 6/28/2024"
+        },
+        {
+          "year": "23-24",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 2,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "23-24",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Jan",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "deep-24-25",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Feb",
+          "status": "available",
+          "daysWithData": 56,
+          "totalDetections": 10,
+          "missionId": "deep-24-25",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Mar",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "deep-24-25",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Apr",
+          "status": "available",
+          "daysWithData": 60,
+          "totalDetections": 0,
+          "missionId": "deep-24-25",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "May",
+          "status": "available",
+          "daysWithData": 62,
+          "totalDetections": 0,
+          "missionId": "deep-24-25",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Jun",
+          "status": "available",
+          "daysWithData": 22,
+          "totalDetections": 0,
+          "missionId": "deep-24-25",
+          "missionLabel": "Deep soundtrap",
+          "missionColor": "#990000",
+          "missionDates": "1/2/2025 \u2013 6/9/2025"
+        },
+        {
+          "year": "24-25",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "24-25",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Nov",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Dec",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Jan",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Feb",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Mar",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Apr",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "May",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Jun",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Jul",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Aug",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Sep",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        },
+        {
+          "year": "25-26",
+          "month": "Oct",
+          "status": "inactive",
+          "daysWithData": 0,
+          "totalDetections": 0
+        }
+      ]
+    }
+  ]
+}
