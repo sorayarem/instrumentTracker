@@ -1,8 +1,5 @@
 "use strict";
 
-const ACCESS_PASSWORD = "listen";
-const STORAGE_KEY = "acoustic-tracker-unlocked";
-
 const cells = new Map();
 const missionGroups = new Map();
 let matrixData = null;
@@ -554,33 +551,6 @@ function selectCell(cellId) {
   renderDetail(cell);
 }
 
-function unlock() {
-  byId("gate").classList.add("is-hidden");
-  byId("app").hidden = false;
-  document.body.classList.add("is-unlocked");
-}
-
-function setupGate() {
-  if (localStorage.getItem(STORAGE_KEY) === "true") {
-    unlock();
-    return;
-  }
-
-  byId("gate-form").addEventListener("submit", (event) => {
-    event.preventDefault();
-    const password = byId("password").value.trim();
-
-    if (password === ACCESS_PASSWORD) {
-      localStorage.setItem(STORAGE_KEY, "true");
-      unlock();
-      return;
-    }
-
-    byId("gate-error").textContent = "Password did not match.";
-    byId("password").select();
-  });
-}
-
 async function loadJson(path) {
   const url = `${path}${path.includes("?") ? "&" : "?"}t=${Date.now()}`;
   const response = await fetch(url, { cache: "no-store" });
@@ -591,8 +561,6 @@ async function loadJson(path) {
 }
 
 async function init() {
-  setupGate();
-
   const logo = document.querySelector(".brand-logo");
   if (logo) {
     logo.src = `assets/whalelogo.png?t=${Date.now()}`;
