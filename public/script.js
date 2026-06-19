@@ -284,6 +284,7 @@ function indexCells(data, monthFlags) {
         status: cell.status,
         daysWithData: cell.daysWithData,
         totalDetections: cell.totalDetections,
+        detections: cell.detections || [],
         missionId,
         missionIds: groupedMissionIds,
         missionLabel,
@@ -448,6 +449,258 @@ function getSelectedNodes(cell) {
   );
 }
 
+function renderMissionMap(mission, instrumentColor) {
+  const map = mission?.map;
+  if (!map) {
+    return "";
+  }
+
+  const label = map.label || mission.popupMission || mission.label || "Mission location";
+  const coordinates = map.coordinateLabel || "";
+  const trackUrl = map.trackUrl || "";
+  const latitude = Number(map.latitude);
+  const longitude = Number(map.longitude);
+  const hasCenter = Number.isFinite(latitude) && Number.isFinite(longitude);
+  if (!hasCenter && !trackUrl) {
+    return "";
+  }
+
+  const coordinatesMarkup = coordinates
+    ? `<span class="mission-map-coordinates">${escapeHtml(coordinates)}</span>`
+    : "";
+  const captionMarkup = coordinates
+    ? `<figcaption class="mission-map-caption">${coordinatesMarkup}</figcaption>`
+    : "";
+
+  return `
+    <figure class="mission-map" aria-label="${escapeHtml(label)} inset map">
+      <div
+        class="mission-map-canvas js-mission-map"
+        data-latitude="${escapeHtml(String(latitude))}"
+        data-longitude="${escapeHtml(String(longitude))}"
+        data-label="${escapeHtml(label)}"
+        data-coordinates="${escapeHtml(coordinates)}"
+        data-track-url="${escapeHtml(trackUrl)}"
+        data-color="${escapeHtml(instrumentColor)}"
+        style="color: ${escapeHtml(instrumentColor)}"
+      >
+        ${trackUrl ? "" : `<span class="mission-map-pin" aria-hidden="true"></span>`}
+      </div>
+      ${captionMarkup}
+    </figure>
+  `;
+}
+
+function formatDetectionCount(value) {
+  return Number(value || 0).toLocaleString();
+}
+
+function renderDetectionItem(kind, value) {
+  const label = kind === "possible" ? "Possible" : "Detected";
+  return `
+    <div class="detection-item">
+      <span class="detection-swatch detection-swatch--${kind}" aria-hidden="true"></span>
+      <span class="detection-value">${formatDetectionCount(value)}</span>
+      <span class="detection-label">${label}</span>
+    </div>
+  `;
+}
+
+function sortDetectionEntries(entries) {
+  const sourceOrder = ["realTime", "archival", "archivalDays"];
+  return [...entries].sort((a, b) => {
+    const aIndex = sourceOrder.indexOf(a.source);
+    const bIndex = sourceOrder.indexOf(b.source);
+    if (aIndex !== -1 || bIndex !== -1) {
+      return (aIndex === -1 ? sourceOrder.length : aIndex) -
+        (bIndex === -1 ? sourceOrder.length : bIndex);
+    }
+    return String(a.label || a.source || "").localeCompare(
+      String(b.label || b.source || "")
+    );
+  });
+}
+
+function detectionEntriesForDetail(cell, mission) {
+  if (mission) {
+    return Array.isArray(mission.detections) ? mission.detections : [];
+  }
+  return Array.isArray(cell.detections) ? cell.detections : [];
+}
+
+function isArchivalDetection(entry) {
+  return (
+    entry.source === "archival" ||
+    entry.source === "archivalDays" ||
+    String(entry.label || "").startsWith("Archival")
+  );
+}
+
+function renderDetectionSummary(cell, mission, analysisStatus) {
+  const entries = detectionEntriesForDetail(cell, mission);
+  const detections = sortDetectionEntries(
+    analysisStatus === "not analyzed"
+      ? entries.filter((entry) => !isArchivalDetection(entry))
+      : entries
+  );
+  if (!detections.length) {
+    return "";
+  }
+
+  const rows = detections.map((entry) => {
+    const sourceLabel = `<h4 class="detection-source-label">${escapeHtml(entry.label || entry.source || "Detections")}</h4>`;
+
+    return `
+      <div class="detection-source">
+        ${sourceLabel}
+        <div class="detection-counts">
+          ${renderDetectionItem("detected", entry.detected)}
+          ${renderDetectionItem("possible", entry.possible)}
+        </div>
+      </div>
+    `;
+  }).join("");
+
+  return `
+    <section class="detections-block">
+      <h3 class="detections-heading">Detections</h3>
+      ${rows}
+    </section>
+  `;
+}
+
+function parseTrackCsv(text) {
+  return text
+    .trim()
+    .split(/\r?\n/)
+    .map((line) => line.split(",").map((value) => Number(value.trim())))
+    .filter(([longitude, latitude]) =>
+      Number.isFinite(latitude) && Number.isFinite(longitude)
+    )
+    .map(([longitude, latitude]) => [latitude, longitude]);
+}
+
+function mapPopupContent(label, detail = "") {
+  return `
+    <div class="mission-map-popup-content">
+      <strong>${escapeHtml(label)}</strong>
+      ${detail ? `<span>${escapeHtml(detail)}</span>` : ""}
+    </div>
+  `;
+}
+
+function trackEndpointTooltip(label) {
+  return `<span class="mission-track-tooltip-label">${escapeHtml(label)}</span>`;
+}
+
+function addMapMarker(map, latitude, longitude, color, label, coordinates) {
+  const marker = window.L.divIcon({
+    className: "mission-map-marker-wrap",
+    html: `<span class="mission-map-marker" style="background: ${escapeHtml(color)}"></span>`,
+    iconSize: [18, 24],
+    iconAnchor: [9, 24]
+  });
+
+  window.L.marker([latitude, longitude], { icon: marker, title: label })
+    .addTo(map)
+    .bindPopup(mapPopupContent(label, coordinates), {
+      className: "mission-map-popup"
+    });
+}
+
+async function addTrackToMap(map, trackUrl, color) {
+  const response = await fetch(trackUrl, { cache: "no-store" });
+  if (!response.ok) {
+    throw new Error(`Could not load track: ${trackUrl}`);
+  }
+
+  const points = parseTrackCsv(await response.text());
+  if (!points.length) {
+    throw new Error(`Track has no usable coordinates: ${trackUrl}`);
+  }
+
+  const track = window.L.polyline(points, {
+    color,
+    weight: 4,
+    opacity: 0.9,
+    lineCap: "round",
+    lineJoin: "round"
+  }).addTo(map);
+
+  window.L.circleMarker(points[0], {
+    radius: 4,
+    color,
+    weight: 2,
+    fillColor: "#ffffff",
+    fillOpacity: 1
+  }).addTo(map).bindTooltip(trackEndpointTooltip("Start"), {
+    className: "mission-track-tooltip mission-track-tooltip--start",
+    direction: "top",
+    offset: [0, -8],
+    opacity: 1
+  });
+
+  window.L.circleMarker(points[points.length - 1], {
+    radius: 5,
+    color: "#ffffff",
+    weight: 2,
+    fillColor: color,
+    fillOpacity: 1
+  }).addTo(map).bindTooltip(trackEndpointTooltip("End"), {
+    className: "mission-track-tooltip mission-track-tooltip--end",
+    direction: "top",
+    offset: [0, -8],
+    opacity: 1
+  });
+
+  map.fitBounds(track.getBounds(), { padding: [18, 18] });
+}
+
+function initializeMissionMaps(scope) {
+  if (!window.L) {
+    return;
+  }
+
+  scope.querySelectorAll(".js-mission-map").forEach((container) => {
+    const latitude = Number(container.dataset.latitude);
+    const longitude = Number(container.dataset.longitude);
+    if (!Number.isFinite(latitude) || !Number.isFinite(longitude)) {
+      return;
+    }
+
+    const label = container.dataset.label || "Mission location";
+    const coordinates = container.dataset.coordinates || "";
+    const trackUrl = container.dataset.trackUrl || "";
+    const color = container.dataset.color || "#1F3B8A";
+
+    container.classList.add("is-interactive");
+    container.replaceChildren();
+
+    const map = window.L.map(container, {
+      center: [latitude, longitude],
+      zoom: 8,
+      zoomControl: false,
+      scrollWheelZoom: true,
+      touchZoom: true
+    });
+
+    window.L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: "&copy; OpenStreetMap contributors"
+    }).addTo(map);
+
+    if (trackUrl) {
+      addTrackToMap(map, trackUrl, color).catch(() => {
+        addMapMarker(map, latitude, longitude, color, label, coordinates);
+      });
+    } else {
+      addMapMarker(map, latitude, longitude, color, label, coordinates);
+    }
+
+    window.requestAnimationFrame(() => map.invalidateSize());
+  });
+}
+
 function renderDetail(cell) {
   const card = byId("detail-card");
   const mission = getMission(cell.missionId);
@@ -485,6 +738,8 @@ function renderDetail(cell) {
     listeningInstruments.length > 0
       ? `<div class="listening-block"><h3 class="listening-heading">Listening this month</h3><ul class="listening-list">${listeningInstruments.map((name) => `<li>${escapeHtml(name)}</li>`).join("")}</ul></div>`
       : "";
+  const mapMarkup = renderMissionMap(mission, instrumentColor);
+  const detectionMarkup = renderDetectionSummary(cell, mission, analysisStatus);
 
   card.innerHTML = `
     <span class="analysis-tag ${analysisTagClass(analysisStatus)}">${escapeHtml(analysisStatus)}</span>
@@ -493,10 +748,13 @@ function renderDetail(cell) {
       ${missionMarkup}
       ${missionDatesMarkup}
     </ul>
+    ${mapMarkup}
+    ${detectionMarkup}
     ${listeningMarkup}
     ${r4wMarkup}
     ${noteMarkup}
   `;
+  initializeMissionMaps(card);
 }
 
 function escapeHtml(text) {

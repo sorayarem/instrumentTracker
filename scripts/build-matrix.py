@@ -1,5 +1,3 @@
-"""Build public/data/matrix.json from dmonDailyCounts.csv and archived mission windows."""
-
 from __future__ import annotations
 
 import csv
@@ -11,9 +9,31 @@ from datetime import date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CSV_PATH = ROOT / "data" / "detections" / "dmonDailyCounts.csv"
+ARCHIVAL_CSV_PATH = ROOT / "data" / "detections" / "dmonDailyCounts.csv"
+REALTIME_CSV_PATH = ROOT / "data" / "detections" / "dmonDetectDailyCounts.csv"
 MISSIONS_PATH = ROOT / "data" / "missions.json"
 OUT_PATH = ROOT / "public" / "data" / "matrix.json"
+
+DETECTION_SOURCES = [
+    {
+        "key": "realTime",
+        "label": "Real-time (days)",
+        "path": REALTIME_CSV_PATH,
+        "unit": "days",
+    },
+    {
+        "key": "archival",
+        "label": "Archival (calls)",
+        "path": ARCHIVAL_CSV_PATH,
+        "unit": "calls",
+    },
+    {
+        "key": "archivalDays",
+        "label": "Archival (days)",
+        "path": ARCHIVAL_CSV_PATH,
+        "unit": "days",
+    },
+]
 
 INSTRUMENTS = {
     "glider": "Glider",
@@ -82,6 +102,16 @@ def column_instrument(name: str) -> str | None:
     for prefix, instrument in INSTRUMENTS.items():
         if name.startswith(prefix):
             return instrument
+    return None
+
+
+def column_detection_meta(name: str) -> tuple[str, str] | None:
+    for prefix, instrument in INSTRUMENTS.items():
+        if not name.startswith(prefix):
+            continue
+        suffix = name.removeprefix(prefix).lower()
+        if suffix in {"detected", "possible"}:
+            return instrument, suffix
     return None
 
 
@@ -203,28 +233,78 @@ def collect_acoustic_years(
     return sorted(years, key=acoustic_year_sort_key)
 
 
-def build_matrix() -> dict:
-    if not CSV_PATH.exists():
-        raise FileNotFoundError(f"Missing CSV: {CSV_PATH}")
+def empty_detection_bucket() -> dict:
+    return {
+        "hasData": False,
+        "dates": set(),
+        "detected": 0,
+        "possible": 0,
+        "sources": {
+            source["key"]: {
+                "label": source["label"],
+                "hasData": False,
+                "dates": set(),
+                "detected": 0,
+                "possible": 0,
+            }
+            for source in DETECTION_SOURCES
+        },
+    }
 
-    missions = load_missions()
-    today = date.today()
 
-    col_map: dict[str, str] = {}
-    with CSV_PATH.open(newline="", encoding="utf-8") as handle:
+def parse_detection_cell(source: dict, raw: str) -> int | None:
+    if not raw or raw.upper() == "NA":
+        return None
+
+    try:
+        value = float(raw)
+    except ValueError:
+        return None
+
+    if source["unit"] == "days":
+        return 1 if value > 0 else 0
+
+    return int(value)
+
+
+def add_detection_value(
+    bucket: dict,
+    source: dict,
+    parsed: date,
+    kind: str,
+    value: int,
+) -> None:
+    source_bucket = bucket["sources"][source["key"]]
+
+    bucket["hasData"] = True
+    bucket["dates"].add(parsed)
+    bucket[kind] += value
+
+    source_bucket["hasData"] = True
+    source_bucket["dates"].add(parsed)
+    source_bucket[kind] += value
+
+
+def read_detection_csv(
+    source: dict,
+    agg: dict[tuple[str, str, str], dict],
+) -> list[dict]:
+    path = source["path"]
+    if not path.exists():
+        return []
+
+    col_map: dict[str, tuple[str, str]] = {}
+    records: list[dict] = []
+    with path.open(newline="", encoding="utf-8") as handle:
         reader = csv.DictReader(handle)
         for column in reader.fieldnames or []:
             if column == "date":
                 continue
-            instrument = column_instrument(column)
-            if instrument:
-                col_map[column] = instrument
+            meta = column_detection_meta(column)
+            if meta:
+                col_map[column] = meta
 
-    agg: dict[tuple[str, str, str], dict] = defaultdict(
-        lambda: {"hasData": False, "daysWithData": 0, "totalDetections": 0}
-    )
-
-    with CSV_PATH.open(newline="", encoding="utf-8") as handle:
+    with path.open(newline="", encoding="utf-8") as handle:
         for row in csv.DictReader(handle):
             parsed = parse_date(row.get("date", ""))
             if not parsed:
@@ -233,19 +313,129 @@ def build_matrix() -> dict:
             acoustic_year = calendar_to_acoustic_year(parsed)
             month = calendar_month_name(parsed.month)
 
-            for column, instrument in col_map.items():
+            if source["unit"] == "days":
+                daily_values: dict[str, dict[str, int]] = {}
+
+                for column, (instrument, kind) in col_map.items():
+                    raw = (row.get(column) or "").strip()
+                    value = parse_detection_cell(source, raw)
+                    if value is None:
+                        continue
+
+                    values = daily_values.setdefault(
+                        instrument,
+                        {"detected": 0, "possible": 0},
+                    )
+                    values[kind] = max(values[kind], value)
+
+                for instrument, values in daily_values.items():
+                    if values["detected"] > 0:
+                        kind = "detected"
+                        value = 1
+                    elif values["possible"] > 0:
+                        kind = "possible"
+                        value = 1
+                    else:
+                        kind = "detected"
+                        value = 0
+
+                    key = (instrument, acoustic_year, month)
+                    add_detection_value(agg[key], source, parsed, kind, value)
+                    records.append(
+                        {
+                            "source": source,
+                            "instrument": instrument,
+                            "date": parsed,
+                            "kind": kind,
+                            "value": value,
+                        }
+                    )
+
+                continue
+
+            for column, (instrument, kind) in col_map.items():
                 raw = (row.get(column) or "").strip()
-                key = (instrument, acoustic_year, month)
-                if not raw or raw.upper() == "NA":
+                value = parse_detection_cell(source, raw)
+                if value is None:
                     continue
 
-                bucket = agg[key]
-                bucket["hasData"] = True
-                bucket["daysWithData"] += 1
-                try:
-                    bucket["totalDetections"] += int(float(raw))
-                except ValueError:
-                    pass
+                key = (instrument, acoustic_year, month)
+                add_detection_value(agg[key], source, parsed, kind, value)
+                records.append(
+                    {
+                        "source": source,
+                        "instrument": instrument,
+                        "date": parsed,
+                        "kind": kind,
+                        "value": value,
+                    }
+                )
+
+    return records
+
+
+def mission_contains_date(mission: dict, parsed: date, today: date) -> bool:
+    for window in mission["windows"]:
+        start = parse_date(window["start"])
+        end = parse_mission_end(window["end"], today)
+        if start and end and start <= parsed <= end:
+            return True
+    return False
+
+
+def attach_mission_detection_summaries(
+    missions: list[dict],
+    records: list[dict],
+    today: date,
+) -> None:
+    buckets = {mission["id"]: empty_detection_bucket() for mission in missions}
+
+    for record in records:
+        for mission in missions_for_instrument(missions, record["instrument"]):
+            if not mission_contains_date(mission, record["date"], today):
+                continue
+            add_detection_value(
+                buckets[mission["id"]],
+                record["source"],
+                record["date"],
+                record["kind"],
+                record["value"],
+            )
+
+    for mission in missions:
+        summary = detection_summary(buckets[mission["id"]])
+        if summary:
+            mission["detections"] = summary
+        else:
+            mission.pop("detections", None)
+
+
+def detection_summary(stats: dict) -> list[dict]:
+    return [
+        {
+            "source": source_key,
+            "label": source["label"],
+            "daysWithData": len(source["dates"]),
+            "detected": source["detected"],
+            "possible": source["possible"],
+        }
+        for source_key, source in stats["sources"].items()
+        if source["hasData"]
+    ]
+
+
+def build_matrix() -> dict:
+    if not ARCHIVAL_CSV_PATH.exists():
+        raise FileNotFoundError(f"Missing CSV: {ARCHIVAL_CSV_PATH}")
+
+    missions = load_missions()
+    today = date.today()
+
+    agg: dict[tuple[str, str, str], dict] = defaultdict(empty_detection_bucket)
+    detection_records: list[dict] = []
+    for source in DETECTION_SOURCES:
+        detection_records.extend(read_detection_csv(source, agg))
+    attach_mission_detection_summaries(missions, detection_records, today)
 
     years = collect_acoustic_years(agg, missions, today)
 
@@ -256,7 +446,7 @@ def build_matrix() -> dict:
             for month in MONTHS:
                 stats = agg.get(
                     (instrument, acoustic_year, month),
-                    {"hasData": False, "daysWithData": 0, "totalDetections": 0},
+                    empty_detection_bucket(),
                 )
                 matches = find_mission_matches(
                     instrument, acoustic_year, month, missions, today
@@ -268,8 +458,9 @@ def build_matrix() -> dict:
                     "year": acoustic_year,
                     "month": month,
                     "status": status,
-                    "daysWithData": stats["daysWithData"],
-                    "totalDetections": stats["totalDetections"],
+                    "daysWithData": len(stats["dates"]),
+                    "totalDetections": stats["detected"] + stats["possible"],
+                    "detections": detection_summary(stats),
                 }
                 if mission and window:
                     cell["missionId"] = mission["id"]

@@ -9,6 +9,12 @@
       "popupMission": "Winter 2023",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/skio0123/skio0123_angus.shtml?_gl=1*11nnoqt*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Winter 2023 Glider Track",
+        "latitude": 31.515584,
+        "longitude": -80.644178,
+        "trackUrl": "data/tracks/angus-20230122T0000_8bc6_5d78_2cb2.csv"
+      },
       "windows": [{ "start": "1/21/2023", "end": "2/3/2023" }]
     },
     {
@@ -21,6 +27,12 @@
       "popupDates": "1/11/2024 – 2/9/2024",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/skio0124/skio0124_angus.shtml?_gl=1*1bwykcp*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Winter 2024 Part I Glider Track",
+        "latitude": 30.979174,
+        "longitude": -80.909188,
+        "trackUrl": "data/tracks/angus-20240111T0000_8e8c_7ae9_ba17.csv"
+      },
       "windows": [{ "start": "1/11/2024", "end": "2/9/2024" }]
     },
     {
@@ -33,6 +45,12 @@
       "popupDates": "2/15/2024 – 3/15/2024",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/skio0224/skio0224_angus.shtml?_gl=1*8l8ijd*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Winter 2024 Part II Glider Track",
+        "latitude": 32.48423,
+        "longitude": -79.53362,
+        "trackUrl": "data/tracks/angus-20240215T0000_b4f6_9fc1_9dce.csv"
+      },
       "windows": [{ "start": "2/15/2024", "end": "3/15/2024" }]
     },
     {
@@ -45,6 +63,12 @@
       "popupDates": "1/2/2025 – 2/5/2025",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/skio2501/skio2501_franklin.shtml?_gl=1*tvwnm3*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Winter 2025 Part I Glider Track",
+        "latitude": 30.235132,
+        "longitude": -81.104315,
+        "trackUrl": "data/tracks/franklin-20250102T0000_a143_2418_935e.csv"
+      },
       "windows": [{ "start": "1/2/2025", "end": "2/5/2025" }]
     },
     {
@@ -70,6 +94,12 @@
       "popupDates": "12/13/2025 – 1/23/2026",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/skio2512/skio2512_angus.shtml?_gl=1*1lzmwpe*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Winter 2026 Glider Track",
+        "latitude": 31.416649,
+        "longitude": -80.926134,
+        "trackUrl": "data/tracks/angus-20251213T0000_3f9f_2e5e_16fa.csv"
+      },
       "windows": [{ "start": "12/13/2025", "end": "1/23/2026" }]
     },
     {
@@ -83,6 +113,12 @@
       "popupNote": "Power supply disconnection caused large amounts of data to be missing",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/gasv0822/gasv0822_gasv.shtml?_gl=1*nzzftg*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Savannah Buoy",
+        "coordinateLabel": "31 49.38 N, 080 18.44 W",
+        "latitude": 31.823,
+        "longitude": -80.307333
+      },
       "windows": [{ "start": "8/17/2022", "end": "9/29/2023", "label": "8/17/2022 – 9/29/2023" }]
     },
     {
@@ -93,6 +129,12 @@
       "popupDates": "12/7/2023 – 1/31/2024",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/gasv1223/gasv1223_gasv.shtml?_gl=1*nzzftg*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Savannah Buoy",
+        "coordinateLabel": "31 49.38 N, 080 18.44 W",
+        "latitude": 31.823,
+        "longitude": -80.307333
+      },
       "windows": [{ "start": "12/7/2023", "end": "1/31/2024", "label": "12/7/2023 – 1/31/2024" }]
     },
     {
@@ -105,6 +147,12 @@
       "popupNote": "Haven't received this buoy's archival data",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/gasv2412/gasv2412_gasv.shtml?_gl=1*11nnoqt*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Savannah Buoy",
+        "coordinateLabel": "31 49.38 N, 080 18.44 W",
+        "latitude": 31.823,
+        "longitude": -80.307333
+      },
       "windows": [{ "start": "12/4/2024", "end": "7/29/2025", "label": "12/4/2024 – 7/29/2025" }]
     },
     {
@@ -117,6 +165,12 @@
       "popupNote": "Currently deployed",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/gasv2512/gasv2512_gasv.shtml?_gl=1*11nnoqt*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Savannah Buoy",
+        "coordinateLabel": "31 49.27 N, 080 18.41 W",
+        "latitude": 31.821167,
+        "longitude": -80.306833
+      },
       "windows": [{ "start": "12/16/2025", "end": "present", "label": "12/16/2025 – present" }]
     },
     {
@@ -129,6 +183,12 @@
       "popupNote": "Power supply disconnection caused large amounts of data to be missing",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/vanf0722/vanf0722_vanf.shtml?_gl=1*mz2tnw*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Norfolk Buoy",
+        "coordinateLabel": "36 43.02 N, 075 28.29 W",
+        "latitude": 36.717,
+        "longitude": -75.4715
+      },
       "windows": [{ "start": "7/20/2022", "end": "10/5/2023", "label": "7/20/2022 – 10/5/2023" }]
     },
     {
@@ -140,6 +200,12 @@
       "popupDates": "10/5/2023 – 7/13/2024",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/vanf1023/vanf1023_vanf.shtml?_gl=1*twkx7b*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Norfolk Buoy",
+        "coordinateLabel": "36 43.02 N, 075 28.29 W",
+        "latitude": 36.717,
+        "longitude": -75.4715
+      },
       "windows": [{ "start": "10/5/2023", "end": "7/13/2024", "label": "10/5/2023 – 7/13/2024" }]
     },
     {
@@ -151,6 +217,12 @@
       "popupDates": "7/14/2024 – 5/30/2025",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/vanf2407/vanf2407_vanf.shtml?_gl=1*twkx7b*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Norfolk Buoy",
+        "coordinateLabel": "36 42.52 N, 075 28.02 W",
+        "latitude": 36.708667,
+        "longitude": -75.467
+      },
       "windows": [{ "start": "7/14/2024", "end": "5/30/2025", "label": "7/14/2024 – 5/30/2025" }]
     },
     {
@@ -163,6 +235,12 @@
       "popupNote": "Currently deployed",
       "detailHeading": "R4W MISSION DETAILS",
       "r4wUrl": "https://dcs.whoi.edu/vanf2505/vanf2505_vanf.shtml?_gl=1*twkx7b*_gcl_au*MTYxMzQ5MzIxNy4xNzgxMTUyMDQw*_ga*MTgwMTIwOTE5Ni4xNzcxMDk4NzU0*_ga_HLKFZX9JZK*czE3ODEyOTU3MzkkbzIyJGcwJHQxNzgxMjk1NzM5JGo2MCRsMCRoMA..",
+      "map": {
+        "label": "Norfolk Buoy",
+        "coordinateLabel": "36 43.07 N, 075 28.30 W",
+        "latitude": 36.717833,
+        "longitude": -75.471667
+      },
       "windows": [{ "start": "5/30/2025", "end": "present", "label": "5/30/2025 – present" }]
     },
     {
@@ -171,6 +249,12 @@
       "label": "Shallow Soundtrap",
       "color": "#66C2A3",
       "analysis": "qaqc'd",
+      "map": {
+        "label": "Shallow Soundtrap",
+        "coordinateLabel": "31 39.29 N, 080 57.17 W",
+        "latitude": 31.65485,
+        "longitude": -80.95286
+      },
       "popupDates": "1/7/2023 – 6/9/2023",
       "windows": [{ "start": "1/7/2023", "end": "6/9/2023", "label": "1/7/2023 – 6/9/2023" }]
     },
@@ -180,6 +264,12 @@
       "label": "Shallow Soundtrap",
       "color": "#66C2A3",
       "analysis": "qaqc'd",
+      "map": {
+        "label": "Shallow Soundtrap",
+        "coordinateLabel": "31 39.22 N, 080 57.19 W",
+        "latitude": 31.6537,
+        "longitude": -80.95324
+      },
       "popupDates": "1/30/2024 – 6/28/2024",
       "popupNote": "Not recovered until 2025 recovery mission",
       "windows": [{ "start": "1/30/2024", "end": "6/28/2024", "label": "1/30/2024 – 6/28/2024" }]
@@ -190,6 +280,12 @@
       "label": "Shallow Soundtrap",
       "color": "#66C2A3",
       "analysis": "not analyzed",
+      "map": {
+        "label": "Shallow Soundtrap",
+        "coordinateLabel": "31 39.21 N, 080 57.19 W",
+        "latitude": 31.6535,
+        "longitude": -80.9531
+      },
       "popupDates": "1/2/2025 – 6/9/2025",
       "popupNote": "Not recovered until 2026 recovery mission",
       "windows": [{ "start": "1/2/2025", "end": "6/9/2025", "label": "1/2/2025 – 6/9/2025" }]
@@ -200,6 +296,12 @@
       "label": "Mid Soundtrap",
       "color": "#CCE596",
       "analysis": "qaqc'd",
+      "map": {
+        "label": "Mid Soundtrap",
+        "coordinateLabel": "31 35.41 N, 080 48.48 W",
+        "latitude": 31.590116,
+        "longitude": -80.80798
+      },
       "popupDates": "1/7/2023 – 6/9/2023",
       "windows": [{ "start": "1/7/2023", "end": "6/9/2023", "label": "1/7/2023 – 6/9/2023" }]
     },
@@ -209,6 +311,12 @@
       "label": "Mid Soundtrap",
       "color": "#CCE596",
       "analysis": "not analyzed",
+      "map": {
+        "label": "Mid Soundtrap",
+        "coordinateLabel": "31 35.42 N, 080 48.47 W",
+        "latitude": 31.59026,
+        "longitude": -80.807805
+      },
       "popupDates": "1/30/2024 – 6/28/2024",
       "popupNote": "Anchor dropped on soundtrap during recovery corrupted the data",
       "windows": [{ "start": "1/30/2024", "end": "6/28/2024", "label": "1/30/2024 – 6/28/2024" }]
@@ -219,6 +327,12 @@
       "label": "Mid Soundtrap",
       "color": "#CCE596",
       "analysis": "qaqc'd",
+      "map": {
+        "label": "Mid Soundtrap",
+        "coordinateLabel": "31 35.45 N, 080 48.49 W",
+        "latitude": 31.59091,
+        "longitude": -80.80812
+      },
       "popupDates": "1/2/2025 – 6/9/2025",
       "windows": [{ "start": "1/2/2025", "end": "6/9/2025", "label": "1/2/2025 – 6/9/2025" }]
     },
@@ -228,6 +342,12 @@
       "label": "Deep Soundtrap",
       "color": "#990000",
       "analysis": "qaqc'd",
+      "map": {
+        "label": "Deep Soundtrap",
+        "coordinateLabel": "31 31.63 N, 080 39.10 W",
+        "latitude": 31.5271,
+        "longitude": -80.6516
+      },
       "popupDates": "1/7/2023 – 6/9/2023",
       "windows": [{ "start": "1/7/2023", "end": "6/9/2023", "label": "1/7/2023 – 6/9/2023" }]
     },
@@ -237,6 +357,12 @@
       "label": "Deep Soundtrap",
       "color": "#990000",
       "analysis": "qaqc'd",
+      "map": {
+        "label": "Deep Soundtrap",
+        "coordinateLabel": "31 31.62 N, 080 39.07 W",
+        "latitude": 31.52698,
+        "longitude": -80.65116
+      },
       "popupDates": "1/30/2024 – 6/28/2024",
       "windows": [{ "start": "1/30/2024", "end": "6/28/2024", "label": "1/30/2024 – 6/28/2024" }]
     },
@@ -246,6 +372,12 @@
       "label": "Deep Soundtrap",
       "color": "#990000",
       "analysis": "qaqc'd",
+      "map": {
+        "label": "Deep Soundtrap",
+        "coordinateLabel": "31 31.59 N, 080 39.09 W",
+        "latitude": 31.52644,
+        "longitude": -80.65156
+      },
       "popupDates": "1/2/2025 – 6/9/2025",
       "windows": [{ "start": "1/2/2025", "end": "6/9/2025", "label": "1/2/2025 – 6/9/2025" }]
     }
