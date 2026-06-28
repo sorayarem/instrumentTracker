@@ -42,6 +42,7 @@ INSTRUMENTS = {
     "deep": "Soundtrap (Deep)",
     "gasvBuoy": "GASV Buoy",
     "vanfBuoy": "VANF Buoy",
+    "scchBuoy": "SCCH Buoy",
 }
 
 INSTRUMENT_ORDER = [
@@ -51,11 +52,13 @@ INSTRUMENT_ORDER = [
     "Soundtrap (Mid)",
     "VANF Buoy",
     "Soundtrap (Deep)",
+    "SCCH Buoy",
 ]
 
 COLORS = {
     "Glider": "#1F3B8A",
     "VANF Buoy": "#FD8D3C",
+    "SCCH Buoy": "#7A5AA6",
     "GASV Buoy": "#3EA6C6",
     "Soundtrap (Shallow)": "#66C2A3",
     "Soundtrap (Mid)": "#CCE596",
@@ -65,6 +68,7 @@ COLORS = {
 LABELS = {
     "Glider": "Glider",
     "VANF Buoy": "Norfolk Buoy",
+    "SCCH Buoy": "Charleston Buoy",
     "GASV Buoy": "Savannah Buoy",
     "Soundtrap (Shallow)": "Shallow Soundtrap",
     "Soundtrap (Mid)": "Mid Soundtrap",

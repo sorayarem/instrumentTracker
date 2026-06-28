@@ -319,7 +319,7 @@ function renderInstrumentPanels(data, monthFlags) {
   const grid = byId("instrument-grid");
   grid.replaceChildren();
 
-  const bottomRowStart = data.instruments.length - 2;
+  const bottomRowStart = data.instruments.length - (data.instruments.length % 2 === 0 ? 2 : 1);
 
   data.instruments.forEach((instrument, index) => {
     const displayLabel = instrument.label || instrument.name;
